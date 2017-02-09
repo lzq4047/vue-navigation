@@ -13,33 +13,32 @@
     <br>
 
     <d-menu :side-nav="true">
-      <d-menuitem index="a" icon-class="d-icon-database">
+      <d-menuitem index="a" icon-class="fa fa-database">
         数据分配
       </d-menuitem>
-      <d-submenu index="b" title="资源分配" icon-class="d-icon-user">
-        <d-menuitem index="b-a" icon-class="d-icon-operat-para-config">
+      <d-submenu index="b" title="资源分配" icon-class="fa fa-user">
+        <d-menuitem index="b-a" icon-class="fa fa-paper-plane">
           数据库分配
         </d-menuitem>
-        <d-menuitem index="b-c" icon-class="d-icon-tool-allocation">
+        <d-menuitem index="b-c" icon-class="fa fa-share-square">
           Hadoop分配
         </d-menuitem>
-        <d-submenu index="b-d" title="服务器分配" icon-class="d-icon-tool-allocation">
-          <d-menuitem index="b-d-a" icon-class="d-icon-agent-config">
+        <d-submenu index="b-d" title="服务器分配" icon-class="fa fa-server">
+          <d-menuitem index="b-d-a" icon-class="fa fa-tasks">
             FTP 分配
           </d-menuitem>
-          <d-menuitem index="b-d-b" icon-class="d-icon-command-config">
+          <d-menuitem index="b-d-b" icon-class="fa fa-linux">
             SFTP 分配
           </d-menuitem>
-          <d-menuitem index="b-d-c" icon-class="d-icon-data-dictionary">
+          <d-menuitem index="b-d-c" icon-class="fa fa-object-group">
             其他分配
           </d-menuitem>
         </d-submenu>
       </d-submenu>
-      <d-menuitem index="c" icon-class="
-      d-icon-api">
+      <d-menuitem index="c" icon-class="fa fa-microchip">
         租户配置
       </d-menuitem>
-      <d-menuitem index="d" icon-class="d-icon-agent-config">
+      <d-menuitem index="d" icon-class="fa fa-map-o">
         工具分配
       </d-menuitem>
     </d-menu>

@@ -1,7 +1,7 @@
 <template>
   <ul class="menu" :class="{top: !sideNav, sidenav: sideNav, expand: sideNav && expand, shrink: sideNav && !expand}">
     <li class="display-style" v-if="sideNav" @click="expand = !expand" :class="{'text-right': expand}">
-      <span class="icon" :class="expand ? 'd-icon-menu-card' : 'd-icon-menu-list'">&nbsp;</span>
+      <span class="icon fa" :class="expand ? 'fa-th' : 'fa-th-list'">&nbsp;</span>
     </li>
     <slot></slot>
   </ul>
@@ -94,7 +94,7 @@
     text-align: right !important;
   }
   .icon{
-    font-size: 14px;
+    font-size: 16px;
     vertical-align: middle;
   }
   .menu .display-style{
